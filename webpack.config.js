@@ -8,6 +8,9 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname,'dist')
   },
+  resolve: {
+    extensions: ['.vue', '.js'] // 省略.vue和.js
+  },
   module:{
     rules:[
       {
